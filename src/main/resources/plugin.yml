@@ -1,0 +1,7 @@
+name: BetterChat-RE
+version: '1.8'
+main: com.LiuLiEYEs.BetterChat.Main
+api-version: '1.21'
+authors: [ LiuLI_EYEs ]
+folia-supported: true
+
