@@ -31,9 +31,10 @@
 ### 展示目前开启和未开启的组件API(三种分类和ALL中选择)
 
     /bc list [搜索范围] 
+    搜索范围必须有
 ### 设置插件状态
 
-    /bc set [搜索范围] [组件API名称]
+    /bc set [搜索范围] [组件API名称] [true/false]
 ### 设置接入了ConfigCommand注解的类，用于更改config（如GetAPI.GetName组件）
 
     /bc config [组件全称] ... 
