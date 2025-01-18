@@ -21,7 +21,7 @@ public class ORC_Hand extends ORC{
     }
     @Override
     public Component getAPINameToComponent(){
-        return Component.text("hand").color(TextColor.color(0xEDFA2B));
+        return Component.text("[hand]").color(TextColor.color(0xBA76F4));
     }
     @Override
     public Component getDescription() {

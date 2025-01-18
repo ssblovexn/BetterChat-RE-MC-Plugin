@@ -1,14 +1,13 @@
 package com.LiuLiEYEs.BetterChat.LiuLI_EYEs.ORC;
 
-import com.LiuLiEYEs.BetterChat.API.MessageAPI.OnReToComponent;
+import com.LiuLiEYEs.BetterChat.API.MessageAPI.IReToComponent;
 import com.LiuLiEYEs.BetterChat.API.Temp.ParameterList;
 import net.kyori.adventure.text.Component;
-import org.bukkit.entity.Player;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public abstract class ORC implements OnReToComponent {
+public abstract class ORC implements IReToComponent {
 
     public abstract Component getCom(ParameterList l,String s);
     public abstract String getMatchString();

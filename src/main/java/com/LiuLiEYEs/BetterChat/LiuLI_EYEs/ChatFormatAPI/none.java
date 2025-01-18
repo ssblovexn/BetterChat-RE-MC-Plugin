@@ -1,13 +1,13 @@
-package com.LiuLiEYEs.BetterChat.LiuLI_EYEs.YangShi;
+package com.LiuLiEYEs.BetterChat.LiuLI_EYEs.ChatFormatAPI;
 
-import com.LiuLiEYEs.BetterChat.API.MessageAPI.MessageYangShiAPI;
+import com.LiuLiEYEs.BetterChat.API.MessageAPI.IMessageFormatAPI;
 import com.LiuLiEYEs.BetterChat.API.Temp.ComponentIndexTemp;
 import com.LiuLiEYEs.BetterChat.API.Temp.MessageComponent;
 import com.LiuLiEYEs.BetterChat.API.Temp.ParameterList;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 
-public class none implements MessageYangShiAPI {
+public class none implements IMessageFormatAPI {
     @Override
     public MessageComponent setMessage(MessageComponent nowThereIsNoSettingMessage, ParameterList l) {
         int index=0;

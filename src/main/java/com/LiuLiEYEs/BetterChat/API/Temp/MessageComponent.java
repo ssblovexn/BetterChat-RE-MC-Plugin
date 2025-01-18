@@ -2,17 +2,15 @@ package com.LiuLiEYEs.BetterChat.API.Temp;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
-import net.kyori.adventure.text.event.ClickEvent;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import static net.kyori.adventure.text.Component.text;
 
 public class MessageComponent
 {
-    List<Component> GettingList = new ArrayList<Component>();
+    List<Component> GettingList = new ArrayList<>();
     Component NewMessage;
 
     public MessageComponent add(Component component){

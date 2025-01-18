@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
+    implementation files("PlayerTitle-4.2.2.jar")
 }
 
 def targetJavaVersion = 21

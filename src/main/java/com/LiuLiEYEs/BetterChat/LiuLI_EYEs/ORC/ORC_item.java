@@ -1,14 +1,11 @@
 package com.LiuLiEYEs.BetterChat.LiuLI_EYEs.ORC;
 
-import com.LiuLiEYEs.BetterChat.API.MessageAPI.OnReToComponent;
 import com.LiuLiEYEs.BetterChat.API.Temp.ParameterList;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextColor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

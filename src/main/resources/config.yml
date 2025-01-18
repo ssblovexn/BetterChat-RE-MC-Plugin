@@ -1,0 +1,21 @@
+Save:
+  open:
+    Format: "none"
+    GetAPI:
+      - "GetName"
+    OnReAPI:
+      - "[hand]"
+      - "[hand2]"
+      - "[网页链接]"
+      - "[item1-9]"
+GetName:
+  format:
+    - " <"
+    - "> "
+  hover: "#d9afd9点#d2b3da我#ccb7dbT#c5bcdbP#bfc0dcA#b8c4dd到#b1c8de玩#abccdf家#a4d1df位#9ed5e0置#97d9e1！"
+  click: "/tpa [PlayerName]"
+
+GetPlayerTitle:
+  DefaultTitle: "#AAAAAA萌新"
+  Hover: "#d9afd9点击打开称号背包"
+  Click: "/plt open"
