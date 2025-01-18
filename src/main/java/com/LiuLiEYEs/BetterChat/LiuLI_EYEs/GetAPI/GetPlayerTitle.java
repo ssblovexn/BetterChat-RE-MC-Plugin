@@ -51,7 +51,7 @@ public class GetPlayerTitle implements IGetAPI, ISave {
                 res = Color.colorInHex(plt.getTitleName()).hoverEvent(HoverEvent.showText(Color.colorInHex(h))).clickEvent(ClickEvent.runCommand(c));
             }else {
                 //默认
-                res = Color.colorInHex("[ " + defaultTitle+" #FFFFFF]").hoverEvent(HoverEvent.showText(Color.colorInHex(h))).clickEvent(ClickEvent.runCommand(c));
+                res = Color.colorInHex("#FFFFFF[ " + defaultTitle+" #FFFFFF]").hoverEvent(HoverEvent.showText(Color.colorInHex(h))).clickEvent(ClickEvent.runCommand(c));
             }
             messageComponent.add(res);
         }

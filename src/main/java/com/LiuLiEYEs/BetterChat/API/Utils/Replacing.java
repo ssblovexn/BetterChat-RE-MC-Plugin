@@ -17,7 +17,7 @@ public class Replacing {
             if (PlayerTitleApi.getInstance().findByPlayerUuidAndIsUse(p)!=null){
                 temp=temp.replace("[Title]", PlayerTitleApi.getInstance().findByPlayerUuidAndIsUse(p).getTitleName());
             }else{
-                temp=temp.replace("[Title]","[ "+de+" #FFFFFF]");
+                temp=temp.replace("[Title]","#FFFFFF[ "+de+" #FFFFFF]");
             }
         }
         return temp;
