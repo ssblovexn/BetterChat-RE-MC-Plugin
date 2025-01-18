@@ -23,11 +23,14 @@
 - web链接 可以直接输入网址
 
 #### 示例:
-![示例](test.png)
+![示例](test/test.png)
 鼠标悬浮显示
 
-![悬浮](item.png)
-![a](e97ad551-42af-492d-86c6-7fb816002149.png)
+![悬浮](test/item.png)
+![a](test/hover.png)
+
+点击网页后
+![网页](test/网页.png)
 
 ## 1.9版本的config如下
 
